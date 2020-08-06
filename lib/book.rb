@@ -7,12 +7,12 @@ class Book
     @title 
   end
   
-  def author_name(name)
-    @name = name
+  def author_name(author)
+    @author = author
   end
   
   def author_name
-    @name 
+    @author
   end
 end
 
